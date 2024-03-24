@@ -1,0 +1,15 @@
+﻿insert into electronics (id, price, name, category, date_of_fabrication) values (1, 0.13, 'Gaming Console', 'cameras', '1988-07-29');
+insert into electronics (id, price, name, category, date_of_fabrication) values (2, 377.22, 'Smartwatch', 'headphones', '2010-03-15');
+insert into electronics (id, price, name, category, date_of_fabrication) values (3, 75.3, 'Tablet', 'laptops', '1995-06-30');
+insert into electronics (id, price, name, category, date_of_fabrication) values (4, 561.0, 'Headphones', 'tablets', '1995-05-08');
+insert into electronics (id, price, name, category, date_of_fabrication) values (5, 318.83, 'Drone', 'laptops', '1969-08-15');
+insert into electronics (id, price, name, category, date_of_fabrication) values (6, 753.37, 'Headphones', 'smartphones', '1922-03-20');
+insert into electronics (id, price, name, category, date_of_fabrication) values (7, 792.65, 'Smartphone', 'smartphones', '1924-01-19');
+insert into electronics (id, price, name, category, date_of_fabrication) values (8, 300.98, 'Smartphone', 'headphones', '1920-08-25');
+insert into electronics (id, price, name, category, date_of_fabrication) values (9, 802.17, 'Fitness Tracker', 'laptops', '2002-05-25');
+insert into electronics (id, price, name, category, date_of_fabrication) values (10, 107.68, 'Smartphone', 'cameras', '1929-05-11');
+insert into electronics (id, price, name, category, date_of_fabrication) values (11, 578.91, 'Drone', 'cameras', '1934-08-04');
+insert into electronics (id, price, name, category, date_of_fabrication) values (12, 99.99, 'Camera', 'smartphones', '1931-12-01');
+insert into electronics (id, price, name, category, date_of_fabrication) values (13, 818.08, 'Gaming Console', 'cameras', '1955-05-28');
+insert into electronics (id, price, name, category, date_of_fabrication) values (14, 59.24, 'Tablet', 'cameras', '1941-05-03');
+insert into electronics (id, price, name, category, date_of_fabrication) values (15, 499.09, 'Smartphone', 'tablets', '2008-11-19');

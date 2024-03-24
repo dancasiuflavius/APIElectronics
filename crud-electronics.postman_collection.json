@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "0fac62ff-f235-4acf-a08b-1c1c85cc1054",
+		"name": "crud-electronics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33348053"
+	},
+	"item": [
+		{
+			"name": "GetAllElectronics",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GetByName",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GetByPrice",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "CreateElectronic",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
