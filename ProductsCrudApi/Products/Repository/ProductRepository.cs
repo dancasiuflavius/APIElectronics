@@ -80,5 +80,17 @@ namespace ProductsCrudApi.Products.Repository
             await _context.SaveChangesAsync();
             return product;
         }
+        public async Task<Product> UpdateAsync(UpdateProductRequest productRequest)
+        {
+            var product = (await _context.Products.FindAsync(productRequest.Id))!;
+
+            product.Price = productRequest.Price ?? product.Price;
+            product.Name = productRequest.Name ?? product.Name;
+            product.Category = productRequest.Category ?? product.Category;
+            product.DateOfFabrication = productRequest.DateOfFabrication ?? product.DateOfFabrication;
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+            return product;
+        }
     }
 }

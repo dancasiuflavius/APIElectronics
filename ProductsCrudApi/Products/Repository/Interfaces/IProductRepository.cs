@@ -13,5 +13,6 @@ namespace ProductsCrudApi.Products.Repository.Interfaces
         Task<Product> CreateAsync(CreateProductRequest productRequest);
         Task<Product> UpdateAsync(int id, UpdateProductRequest productRequest);
         Task<Product> DeleteAsync(int id);
+        Task<Product> UpdateAsync(UpdateProductRequest productRequest);
     }
 }

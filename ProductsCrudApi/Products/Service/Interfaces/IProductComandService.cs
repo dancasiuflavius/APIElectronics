@@ -10,6 +10,6 @@ public interface IProductComandService
     Task<Product> CreateProduct(CreateProductRequest productRequest);
 
     Task<Product> UpdateProduct(int id,UpdateProductRequest productRequest);
-
+    Task<Product> UpdateProduct(UpdateProductRequest productRequest);
     Task<Product> DeleteProduct(int id);
 }
